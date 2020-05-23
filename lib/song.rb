@@ -41,4 +41,7 @@ end
 end
 genre_hash
 end
+
+def self.artist_count 
 end
+
