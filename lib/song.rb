@@ -48,6 +48,11 @@ def self.artist_count
     if artist_hash[artist] == nil 
       artist_hash[artist] = 1  
     elsif artist_hash[artist] != nil 
-    
+      artist_hash[artist] += 1 
+    end 
+  end 
+  artist_hash 
+end 
+end
 end
 
