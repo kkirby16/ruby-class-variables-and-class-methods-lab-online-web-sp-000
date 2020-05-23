@@ -29,7 +29,7 @@ class Song
     
   def self.genre_count 
     genre_hash = {} 
-    @@genres.map do |genre|
+    @@genres.aech do |genre|
      binding.pry
 
 end
