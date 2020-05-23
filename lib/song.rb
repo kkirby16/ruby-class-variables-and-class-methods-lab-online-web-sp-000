@@ -45,7 +45,8 @@ end
 def self.artist_count 
   artist_hash 
   @@artists.each do |artist| 
-    if genre_hash[artist] == nil 
-      genre_hash[artist] = 1 
+    if artist_hash[artist] == nil 
+      artist_hash[artist] = 1  
+    elsif genre_hash[]
 end
 
