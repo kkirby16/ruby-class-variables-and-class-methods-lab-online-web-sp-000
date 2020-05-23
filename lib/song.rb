@@ -31,7 +31,7 @@ class Song
     genre_hash = {} 
     @@genres.map do |genre|
       if genre_hash[genre] == nil 
-        genre_hash[genre].push(genre)
+        genre_hash[genre]
   end
 end
     genre_hash
