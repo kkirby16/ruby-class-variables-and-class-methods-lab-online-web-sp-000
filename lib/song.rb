@@ -11,7 +11,7 @@ class Song
     @@genres = []
     @@genres << genre
     @@artists = [] 
-    @@artists
+    @@artists << artist
     @@count += 1 
   end
   
