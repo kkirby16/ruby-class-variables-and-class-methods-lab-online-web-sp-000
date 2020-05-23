@@ -33,6 +33,6 @@ class Song
       if genre_hash[genre] == nil
         genre_hash[genre]
      end
-
+end
 end
 end
