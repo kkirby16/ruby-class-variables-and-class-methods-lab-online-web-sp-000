@@ -32,8 +32,6 @@ class Song
     @@genres.each do |genre|
       if genre_hash[genre] == nil
         genre_hash[genre]
-                binding.pry
-
   end
        end 
     genre_hash
